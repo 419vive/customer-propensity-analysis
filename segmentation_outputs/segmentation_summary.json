@@ -1,0 +1,26 @@
+{
+  "total_customers": 607056,
+  "train_customers": 455401,
+  "test_customers": 151655,
+  "segment_distributions": {
+    "propensity_segment": {
+      "Very Low Propensity": 0.9205130992857331,
+      "Very High Propensity": 0.03701141245618197,
+      "Low Propensity": 0.01601499696897815,
+      "Medium Propensity": 0.01332825966632403,
+      "High Propensity": 0.013132231622782741
+    },
+    "behavioral_segment": {
+      "Highly Engaged Buyers 1": 0.7127958540892438,
+      "Highly Engaged Buyers": 0.20726094462454864,
+      "Highly Engaged Buyers 2": 0.07119277298964181,
+      "Highly Engaged Buyers 4": 0.005353707071505759,
+      "Highly Engaged Buyers 3": 0.0033967212250599617
+    },
+    "hybrid_category": {
+      "Low Priority": 0.9365280962547112,
+      "Champions": 0.05014364407896471,
+      "Warm Prospects": 0.01332825966632403
+    }
+  }
+}

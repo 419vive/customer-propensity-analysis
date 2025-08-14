@@ -1,0 +1,55 @@
+{
+  "segment_performance": {
+    "Low Propensity": {
+      "conversion_rate": 0.0015459626590557736,
+      "lift_percent": -96.31261226157933,
+      "confidence_interval_lower": 0.000903714145873952,
+      "confidence_interval_upper": 0.0026434345369206937,
+      "sample_size": 8409,
+      "total_conversions": 13,
+      "statistical_significance": "True"
+    },
+    "Very Low Propensity": {
+      "conversion_rate": 0.0,
+      "lift_percent": -100.0,
+      "confidence_interval_lower": 0,
+      "confidence_interval_upper": 9.368274502663434e-06,
+      "sample_size": 410061,
+      "total_conversions": 0,
+      "statistical_significance": "True"
+    },
+    "Very High Propensity": {
+      "conversion_rate": 0.8662635353677401,
+      "lift_percent": 1966.1880284397644,
+      "confidence_interval_lower": 0.8616300108356809,
+      "confidence_interval_upper": 0.8707651717765386,
+      "sample_size": 21333,
+      "total_conversions": 18480,
+      "statistical_significance": "True"
+    },
+    "Medium Propensity": {
+      "conversion_rate": 0.005086735359332203,
+      "lift_percent": -87.86725831783771,
+      "confidence_interval_lower": 0.0037233987966624697,
+      "confidence_interval_upper": 0.006945782535409359,
+      "sample_size": 7667,
+      "total_conversions": 39,
+      "statistical_significance": "True"
+    },
+    "High Propensity": {
+      "conversion_rate": 0.07073509015256588,
+      "lift_percent": 68.71539721661682,
+      "confidence_interval_lower": 0.06529785430516041,
+      "confidence_interval_upper": 0.07658797741705065,
+      "sample_size": 7931,
+      "total_conversions": 561,
+      "statistical_significance": "True"
+    }
+  },
+  "overall_conversion_rate": 0.04192568747104201,
+  "anova_test": {
+    "f_statistic": 570188.0429001377,
+    "p_value": 0.0,
+    "significant_at_05": "True"
+  }
+}

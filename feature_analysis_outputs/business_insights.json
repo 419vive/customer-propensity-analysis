@@ -1,0 +1,56 @@
+{
+  "key_findings": [
+    "Top conversion driver: saw_checkout (Importance: 0.923)",
+    "Most consistent predictor across models: checked_returns_detail",
+    "Strongest derived metric: intent_score"
+  ],
+  "category_insights": {
+    "Purchase Intent": {
+      "average_importance": 0.3180897713225567,
+      "feature_count": 7,
+      "top_feature": "saw_checkout",
+      "business_impact": "Critical conversion signals - focus on reducing friction at these touchpoints"
+    },
+    "Derived Metrics": {
+      "average_importance": 0.22441769797929972,
+      "feature_count": 2,
+      "top_feature": "intent_score",
+      "business_impact": "Composite signals for advanced targeting - use for segmentation and personalization"
+    },
+    "Shopping Behavior": {
+      "average_importance": 0.08128684521680037,
+      "feature_count": 3,
+      "top_feature": "basket_icon_click",
+      "business_impact": "Direct impact on conversion funnel - optimize cart and wishlist experiences"
+    },
+    "Device & Context": {
+      "average_importance": 0.0754227567998892,
+      "feature_count": 1,
+      "top_feature": "device_computer",
+      "business_impact": "Platform optimization opportunities - ensure consistent experience across devices"
+    },
+    "Other": {
+      "average_importance": 0.06627121995189024,
+      "feature_count": 2,
+      "top_feature": "returning_user",
+      "business_impact": "Additional factors requiring investigation and optimization"
+    }
+  },
+  "recommendations": [
+    "Optimize checkout experience: saw_checkout is a top predictor. Implement one-page checkout, guest checkout options, and clear progress indicators.",
+    "Enhance delivery communication: checked_delivery_detail_x_sign_in strongly predicts conversion. Display delivery options prominently and offer multiple delivery speeds.",
+    "Enhance delivery communication: checked_delivery_detail strongly predicts conversion. Display delivery options prominently and offer multiple delivery speeds.",
+    "Streamline authentication: sign_in is crucial for conversion. Implement social login, remember user preferences, and reduce sign-in friction.",
+    "Shopping Behavior Priority: Implement advanced cart features like saved items, price alerts, and smart recommendations.",
+    "Purchase Intent Priority: Reduce checkout abandonment with exit-intent popups, cart recovery emails, and simplified payment options.",
+    "Device Optimization: Ensure mobile-first design, touch-friendly interfaces, and consistent functionality across all devices."
+  ],
+  "strategic_priorities": [
+    "Purchase Intent Focus: This category shows the highest predictive power - allocate primary optimization resources here",
+    "Customer Journey Optimization: Focus on the critical touchpoints identified by the top predictive features",
+    "Personalization Engine: Leverage behavioral signals for targeted marketing and product recommendations",
+    "Conversion Rate Optimization: Systematic testing of the highest-impact features and user flows",
+    "Mobile Experience: Prioritize mobile optimization given device-related feature importance",
+    "Authentication Strategy: Simplify and incentivize user registration and sign-in processes"
+  ]
+}
